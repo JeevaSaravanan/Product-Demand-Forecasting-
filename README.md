@@ -65,11 +65,6 @@ Follow these steps to run the project and reproduce the results:
 
 4. **Run the analysis**: You can run the project using the Jupyter Notebook or the provided Python scripts:
    - **Jupyter Notebook**: Open the notebook (e.g., `Forecasting_Product_Demand.ipynb`) in Jupyter Notebook or JupyterLab. Run the cells sequentially to execute data loading, preprocessing, model training, and forecasting steps. This will reproduce the analysis and output charts/metrics as documented.
-   - **Python Script**: If a script version is provided (e.g., `train_model.py`), run it from the command line:  
-     ```bash
-     python train_model.py
-     ``` 
-     This will load the data, train the forecasting model, and output the results (and possibly save forecasts to a file).
 
 5. **Make predictions**: After training, the notebook/script will demonstrate how to forecast future demand. For example, you can adjust the code to forecast the next N months by specifying the forecast horizon. The model can generate predictions for each product and warehouse for the month after the last date in the training data (and further into the future as needed).
 
@@ -120,3 +115,10 @@ Key observations include:
 ![](/images/model3-forecast.png)
 
 Visualizations comparing actual versus forecasted demand confirmed that the models effectively captured overall trends and seasonality, with further improvements possible via additional features, advanced models, and ensemble methods.
+
+<div align="center">
+
+<a href="https://jeevasaravanan.medium.com/" target="_blank">![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)</a> <a href="https://www.linkedin.com/in/jeeva-saravanan/" target="_blank">![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)</a> <a href="https://jeeva-saravana-bhavanandam.web.app" target="_blank">![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=GoogleChrome&logoColor=white)</a>
+
+
+</div>
